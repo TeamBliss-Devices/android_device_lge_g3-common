@@ -317,6 +317,11 @@
 
     <!-- Wether doze feature is enabled by default in settings. -->
     <bool name="config_doze_enabled_by_default">true</bool>
+
+    <!-- Doze: force using accelerometer as pick up sensor -->
+    <bool name="config_dozeUseAccelerometer">true</bool>
+
      <!-- Hardware keys enable/disable -->
-    <bool name="config_hwKeysPref">false</bool>   
+    <bool name="config_hwKeysPref">false</bool>
+
 </resources>
